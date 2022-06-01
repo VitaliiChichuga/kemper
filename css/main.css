@@ -117,6 +117,7 @@ img {
 /* header */
 
 .header {
+  z-index: 5;
   position: absolute;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -285,9 +286,14 @@ img {
 
 /* section turnkey-solutions */
 
+.solutions {
+  padding-top: 80px;
+}
+
 .solutions .item {
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .solutions > .item:nth-child(2n) {
@@ -362,4 +368,20 @@ img {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 50%;
+}
+
+/* ------------------PAGE 3 (MATERIALS-PAGE)----------------- */
+
+.materials-page {
+  display: flex;
+}
+
+.materials-page__img {
+  display: flex;
+  flex-wrap: wrap
+  width: ;
+}
+.materials-page__text {
+}
+.materials-page__logo {
 }
