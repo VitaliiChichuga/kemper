@@ -139,7 +139,7 @@ img {
 }
 
 .header .logo {
-  margin-right: 234px;
+  margin-right: 206px;
 }
 
 .navigation {
@@ -425,4 +425,29 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 66px;
+}
+
+/* ------------------PAGE 4 (SOLUTIONS-PAGE)----------------- */
+.page-solutions {
+  padding-top: 80px;
+}
+
+.page-solutions__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-solutions__item:nth-child(2n) {
+  flex-direction: row-reverse;
+  margin-left: 107px;
+}
+
+.page-solutions__img:not(:last-child) {
+  margin-right: 107px;
+  margin-left: 107px;
+  margin-bottom: 107px;
+}
+.page-solutions__img {
+  height: fit-content;
 }
