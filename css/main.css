@@ -82,8 +82,8 @@ img {
 .container {
   width: 1200px;
 
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -95,6 +95,9 @@ img {
 
 .logo {
   display: block;
+}
+.logo > img {
+  border-radius: 50%;
 }
 
 .button:hover,
@@ -194,6 +197,7 @@ img {
 }
 
 .page-title {
+  max-width: 820px;
   font-size: 38px;
   line-height: 1.84;
   color: rgba(255, 255, 255, 0.75);
@@ -376,12 +380,41 @@ img {
   display: flex;
 }
 
-.materials-page__img {
+.materials-page__img-list {
+  height: 553px;
+  width: 805px;
   display: flex;
-  flex-wrap: wrap
-  width: ;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 23px;
+  margin-right: 72px;
+  align-items: end;
+  justify-content: space-around;
+}
+.materials-page__img-list--img {
+  width: 300px;
+  height: 225px;
+  border-radius: 25px;
+}
+.materials-page__img-list--line {
+  width: 808px;
 }
 .materials-page__text {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2.18;
+}
+.materials-page__position {
+  position: sticky;
+  top: 0;
+  margin-top: -34px;
+  padding-top: 110px;
+  padding-bottom: 15px;
 }
 .materials-page__logo {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 66px;
 }
