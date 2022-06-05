@@ -1,35 +1,30 @@
-import gallery from './app.js';
-import gallery2 from './app2.js';
+import { gallery, gallery2 } from './app.js';
 
 const refs = {
-  link: document.querySelector('.open', '.open2'),
-  // aaa: document.querySelector(),
+  link: document.querySelector('.open'),
+  link2: document.querySelector('.two'),
 };
 
-// refs.link.addEventListener('click', event => {
-//   event.preventDefault();
+function getValue(array, key) {
+  let res = [];
+  for (let i = 0; i < array.length; i++) {
+    res[array[i][key]] = array[i];
+  }
+  return res;
+}
 
-//   if (event.target.nodeName !== 'IMG') {
-//     return;
-//   }
-//   console.log(event.target);
-//   Fancybox.show(gallery);
-// });
 refs.link.addEventListener('click', event => {
   event.preventDefault();
 
   if (event.target.className === 'open') {
-    Fancybox.show(gallery);
-  }
-
-  if (event.target.className === 'open2') {
-    Fancybox.show(gallery2);
+    Fancybox.show(gallery, 'src');
   }
 });
-refs.aaa.addEventListener('click', event => {
+
+refs.link2.addEventListener('click', event => {
   event.preventDefault();
 
-  if (event.target.className === 'open2') {
-    Fancybox.show(gallery2);
+  if (event.target.className === 'two') {
+    Fancybox.show(gallery2, 'src');
   }
 });
