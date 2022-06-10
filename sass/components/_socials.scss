@@ -1,0 +1,12 @@
+.social {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+  align-items: end;
+}
+
+.social-network__icon {
+  width: 36px;
+  height: 36px;
+  fill: var(--primary-color);
+}

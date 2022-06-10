@@ -1,0 +1,27 @@
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.link:hover,
+.link:focus {
+  text-decoration: none;
+  color: inherit;
+}
+.animate-link:hover {
+  transform: var(--animate-link-transform);
+  transition: var(--animate-link-transition);
+}
+.animate-link:focus-within {
+  transform: var(--animate-link-transform);
+  transition: var(--animate-link-transition);
+}
+
+.animate-link-photo:hover,
+.animate-link-photo:focus {
+  transform: var(--animate-link-photo-transform);
+  transition: var(--animate-link-photo-transition);
+}
+
+.link-photo {
+  min-width: 300px;
+}

@@ -1,0 +1,31 @@
+:root {
+  --shadow-color-hero: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.81) 1.21%,
+    rgba(52, 52, 52, 0.612) 51.56%,
+    rgba(0, 0, 0, 0.855) 96.19%
+  );
+  --shadow-color-section: linear-gradient(
+    360deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0.803409) 38.28%,
+    rgba(0, 0, 0, 0.8) 59.2%,
+    #000000 98%
+  );
+  --shadow-color-footer: linear-gradient(
+    360deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0.803409) 38.28%,
+    rgba(0, 0, 0, 0.8) 59.2%,
+    #000000 98%
+  );
+
+  --animate-link-transform: scale(1.2);
+  --animate-link-transition: 250ms cubic-bezier(0.4, 0.2, 0.2, 0.2);
+  --animate-link-photo-transform: scale(0.95);
+  --animate-link-photo-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  --shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --primary-color: #ab816c;
+  --secondary-text-color: rgba(255, 255, 255, 0.75);
+}

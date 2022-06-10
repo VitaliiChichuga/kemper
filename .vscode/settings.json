@@ -1,63 +1,21 @@
 {
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "expanded",
-      "extensionName": ".css",
-      "savePath": "/css"
-    },
-    {
-      "format": "compressed",
-      "extensionName": ".min.css",
-      "savePath": "/css"
-    }
-  ],
-  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
-  "liveSassCompile.settings.generateMap": true,
-  "liveServer.settings.port": 1236,
-  "liveSassCompile.settings.autoprefix": null,
-  "cSpell.words": [
-    "автомобиль",
-    "автомобиля",
-    "Вайбер",
-    "ВАШУ",
-    "Готовые",
-    "дополнительного",
-    "ЖИЗНИ",
-    "Используемые",
-    "колесах",
-    "компании",
-    "кэмпер",
-    "КЭМПЕР",
-    "логотип",
-    "материала",
-    "материалы",
-    "Материалы",
-    "МЕЧТУ",
-    "мечты",
-    "наши",
-    "Наши",
-    "Ночная",
-    "оборудования",
-    "отделочного",
-    "перейти",
-    "Перестроим",
-    "позвонить",
-    "Почта",
-    "работы",
-    "РЕАЛЬНОСТЬЮ",
-    "решения",
-    "СДЕЛАЕМ",
-    "СТИЛЬ",
-    "страницу",
-    "стрелка",
-    "Телеграмм",
-    "Телефон",
-    "Фейсбук",
-    "Фольксваген",
-    "фотография",
-    "Фотография",
-    "фурия",
-    "шумоизоляционного"
-  ],
-  "workbench.settings.useSplitJSON": true
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css"
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap": true,
+    "liveServer.settings.port": 1236,
+    "liveSassCompile.settings.autoprefix": null
 }

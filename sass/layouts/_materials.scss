@@ -1,0 +1,67 @@
+.flexwrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexwrap:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.materials__flexwrap-honest > li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.materials__flexwrap-odd > li:not(:last-child) {
+  margin-right: 180px;
+}
+
+.background {
+  background-image: var(--shadow-color-section);
+  opacity: 0.94;
+  box-shadow: var(--shadow);
+}
+
+.position {
+  display: flex;
+  align-items: center;
+}
+
+/* ------------------PAGE 3 (MATERIALS-PAGE)----------------- */
+
+.materials-page {
+  display: flex;
+}
+
+.materials-page__img-list {
+  height: 553px;
+  /* width: 805px; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 23px;
+  margin-right: 72px;
+  align-items: end;
+  justify-content: space-around;
+}
+.materials-page__img-list--img {
+  width: 300px;
+  height: 225px;
+  border-radius: 25px;
+}
+.materials-page__img-list--line {
+  width: 808px;
+}
+.materials-page__text {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2.18;
+}
+.materials-page__position {
+  position: sticky;
+  top: 0;
+  margin-top: -34px;
+  padding-top: 110px;
+  padding-bottom: 15px;
+}

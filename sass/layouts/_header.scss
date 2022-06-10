@@ -1,0 +1,36 @@
+.header {
+  z-index: 5;
+  position: absolute;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.header-position {
+  position: relative;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.header__logo {
+  margin-right: 206px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.site-nav {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-shadow: var(--shadow);
+}

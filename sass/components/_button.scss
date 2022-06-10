@@ -1,0 +1,16 @@
+.button {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.16;
+  text-transform: uppercase;
+  border: none;
+  background: none;
+  color: var(--primary-color);
+}
+
+.button:hover,
+.button:focus {
+  transform: var(--animate-link-transform);
+  transition: var(--animate-link-transition);
+}
