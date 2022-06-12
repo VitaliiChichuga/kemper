@@ -423,38 +423,45 @@ img {
   align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .hero__container {
+    margin-left: 10px;
+  }
+}
+
 .background-image {
+  height: 270px;
   background-image: var(--shadow-color-hero), url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 480px) {
   .background-image {
-    height: 825px;
+    height: 400px;
   }
 }
 
-@media screen and (max-width: 960px) {
-  .background-image {
-    height: 585px;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .background-image {
     height: 500px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 960px) {
   .background-image {
-    height: 300px;
+    height: 620px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .background-image {
+    height: 825px;
   }
 }
 
 .hero__title {
-  font-size: 13px;
+  font-size: 12px;
   color: var(--secondary-text-color);
   line-height: 1.84;
   text-shadow: var(--shadow);
@@ -464,7 +471,6 @@ img {
   font-family: 'Inter';
   font-style: italic;
   font-weight: 100;
-  font-size: 22px;
   line-height: 1.23;
   margin-top: 475px;
   color: #ffffff;
@@ -501,25 +507,25 @@ img {
 
 @media screen and (max-width: 479.98px) {
   .hero__content {
-    margin-top: 209px;
+    margin-top: 185px;
   }
 }
 
 @media screen and (min-width: 480px) {
   .hero__content {
-    padding-top: 139px;
+    padding-top: 55px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero__content {
-    padding-top: 139px;
+    padding-top: 75px;
   }
 }
 
 @media screen and (min-width: 960px) {
   .hero__content {
-    padding-top: 139px;
+    padding-top: 90px;
   }
 }
 
@@ -539,25 +545,29 @@ img {
 
 @media screen and (min-width: 480px) {
   .hero__subtitle {
-    margin-top: 220px;
+    margin-top: 240px;
+    font-size: 12px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero__subtitle {
-    margin-top: 290px;
+    margin-top: 300px;
+    font-size: 15px;
   }
 }
 
 @media screen and (min-width: 960px) {
   .hero__subtitle {
-    margin-top: 545px;
+    margin-top: 415px;
+    font-size: 16px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero__subtitle {
     margin-top: 452px;
+    font-size: 22px;
   }
 }
 
