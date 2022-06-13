@@ -18,6 +18,17 @@
 }
 
 .header__logo {
+  margin-right: 40px;
+  width: 35px;
+
+  @media screen and (min-width: 480px) {
+    margin-right: 137px;
+    width: 35px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-right: 140px;
+    width: 35px;
+  }
   @media screen and (min-width: 768px) {
     margin-right: 75px;
     width: 35px;
@@ -33,7 +44,17 @@
     width: 80px;
   }
 }
-
+.header__icon-menu {
+  width: 20px;
+  height: 20px;
+  fill: var(--primary-color);
+  @media screen and (max-width: 479.98px) {
+    margin-right: 35px;
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
 .navigation {
   display: flex;
   align-items: center;

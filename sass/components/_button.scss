@@ -1,12 +1,15 @@
 .button {
   font-family: 'Raleway';
   font-weight: 400;
-
+  font-size: 12px;
   line-height: 1.16;
   text-transform: uppercase;
   border: none;
   background: none;
   color: var(--primary-color);
+
+  @media screen and (min-width: 480px) {
+  }
   @media screen and (min-width: 768px) {
     font-size: 13px;
   }
