@@ -13,6 +13,21 @@
   width: 626px;
   text-align: center;
 }
+.work__subtitle {
+  font-size: 13px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
+
+  @media screen and (min-width: 960px) {
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
+}
 
 .work-list__item {
   position: absolute;
@@ -43,7 +58,25 @@
 .work-list__description {
   display: none;
 }
+.work__description {
+  @media screen and (max-width: 479.98px) {
+    display: none;
+  }
+  @media screen and (min-width: 480px) {
+    font-size: 13px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
 
+  @media screen and (min-width: 960px) {
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
+}
 .work-list__description--is-active {
   display: block;
 }

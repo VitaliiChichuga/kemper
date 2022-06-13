@@ -240,14 +240,32 @@ img {
   font-family: 'Montserrat';
   font-style: italic;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.75);
   width: 137px;
+  font-size: 13px;
   margin-top: 15px;
   margin-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .customer-name {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .customer-name {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .customer-name {
+    font-size: 16px;
+  }
 }
 
 .customer-rating {
@@ -706,6 +724,28 @@ img {
   text-align: center;
 }
 
+.work__subtitle {
+  font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .work__subtitle {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .work__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .work__subtitle {
+    font-size: 18px;
+  }
+}
+
 .work-list__item {
   position: absolute;
 }
@@ -737,6 +777,36 @@ img {
 
 .work-list__description {
   display: none;
+}
+
+@media screen and (max-width: 479.98px) {
+  .work__description {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .work__description {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .work__description {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .work__description {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .work__description {
+    font-size: 18px;
+  }
 }
 
 .work-list__description--is-active {
