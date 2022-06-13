@@ -1,12 +1,22 @@
 .back-to-top {
   position: fixed;
-  right: 65px;
-  bottom: 100px;
-  width: 60px;
-  height: 60px;
+  // right: 65px;
+  // bottom: 100px;
+  // width: 60px;
+  // height: 60px;
+  right: 13px;
+  bottom: 66px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   fill: var(--primary-color);
   border: 1px solid var(--primary-color);
   outline: none;
   display: none;
+  // @media screen and (max-width: 980px) {
+  //   right: 7px;
+  //   bottom: 15px;
+  //   width: 30px;
+  //   height: 30px;
+  // }
 }
