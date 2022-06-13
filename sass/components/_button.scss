@@ -1,12 +1,23 @@
 .button {
   font-family: 'Raleway';
   font-weight: 400;
-  font-size: 18px;
+
   line-height: 1.16;
   text-transform: uppercase;
   border: none;
   background: none;
   color: var(--primary-color);
+  @media screen and (min-width: 768px) {
+    font-size: 13px;
+  }
+
+  @media screen and (min-width: 960px) {
+    font-size: 15px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
 }
 
 .button:hover,
