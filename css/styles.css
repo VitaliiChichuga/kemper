@@ -885,32 +885,108 @@ img {
 }
 
 .materials-page__img-list {
-  height: 553px;
   /* width: 805px; */
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
   margin-bottom: 23px;
-  margin-right: 72px;
+  margin-left: auto;
+  margin-right: auto;
   align-items: end;
   justify-content: space-around;
 }
 
+@media screen and (min-width: 768px) {
+  .materials-page__img-list {
+    height: 335px;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-width: 960px) {
+  .materials-page__img-list {
+    height: 440px;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .materials-page__img-list {
+    height: 553px;
+  }
+}
+
 .materials-page__img-list--img {
-  width: 300px;
-  height: 225px;
   border-radius: 25px;
 }
 
+@media screen and (max-width: 767.98px) {
+  .materials-page__img-list--img {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .materials-page__img-list--img {
+    width: 195px;
+    height: 140px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .materials-page__img-list--img {
+    width: 230px;
+    height: 170px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .materials-page__img-list--img {
+    width: 315px;
+    height: 235px;
+  }
+}
+
 .materials-page__img-list--line {
-  width: 808px;
+  width: 100%;
 }
 
 .materials-page__text {
   font-family: 'Raleway';
   font-weight: 400;
-  font-size: 20px;
+  font-size: 13px;
   line-height: 2.18;
+  width: 200px;
+  padding-top: 50px;
+  margin-left: 60px;
+}
+
+@media screen and (max-width: 479.98px) {
+  .materials-page__text {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .materials-page__text {
+    padding-left: 55px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .materials-page__text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .materials-page__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .materials-page__text {
+    font-size: 18px;
+  }
 }
 
 .materials-page__position {
