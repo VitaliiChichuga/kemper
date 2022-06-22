@@ -106,11 +106,12 @@
 
 .page-solutions__item:nth-child(2n) {
   flex-direction: row-reverse;
-  padding-left: 107px;
+  // padding-left: 107px;
 }
 
 .page-solutions__item li:not(:last-child) {
-  padding-right: 107px;
-  padding-left: 107px;
-  margin-bottom: 107px;
+  // padding-right: 107px;
+  // padding-left: 107px;
+  // margin-bottom: 107px;
+  padding: 20px;
 }

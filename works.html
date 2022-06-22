@@ -47,6 +47,7 @@
             <a class="logo header__logo animate-link" href="./index.html"
               ><img src="./images/logo-1.png" width="80" alt="логотип компании"
             /></a>
+
             <ul class="site-nav menu list">
               <li class="menu__item animate-link">
                 <a class="link" href="./index.html">Главная</a>
@@ -70,8 +71,31 @@
               >позвонить</a
             >
           </button>
+          <svg class="header__icon-menu animate-link">
+            <use href="./svg/symbol-defs.svg#icon-menu"></use>
+          </svg>
         </div>
       </header>
+
+      <div class="mobile-menu">
+        <ul class="mobile-menu__list list">
+          <li class="mobile-menu__item animate-link">
+            <a class="link" href="./index.html">Главная</a>
+          </li>
+          <li class="mobile-menu__item animate-link">
+            <a href="./works.html" class="link">Наши работы</a>
+          </li>
+          <li class="mobile-menu__item animate-link">
+            <a href="./materials.html" class="link">Материалы</a>
+          </li>
+          <li class="mobile-menu__item animate-link">
+            <a href="./solutions.html" class="link">Готовые решения</a>
+          </li>
+          <li class="mobile-menu__item about-remove animate-link">
+            <a href="#about-us" class="link">О нас</a>
+          </li>
+        </ul>
+      </div>
     </div>
     <main>
       <!-- section turnkey-solutions -->
@@ -302,9 +326,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-
+    <script src="./js/burger-menu.js"></script>
     <script src="./js/back-to-top.js"></script>
     <script src="./js/app.js" type="module"></script>
     <script src="./js/gallery.js" type="module"></script>
