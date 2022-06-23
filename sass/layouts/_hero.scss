@@ -73,19 +73,18 @@
       margin-top: 185px;
     }
     @media screen and (min-width: 480px) {
-      padding-top: 55px;
+      padding-top: 110px;
     }
-    @media screen and (min-width: 768px) {
-      padding-top: 75px;
-    }
+    // @media screen and (min-width: 768px) {
+    //   padding-top: 110px;
+    // }
 
-    @media screen and (min-width: 960px) {
-      padding-top: 90px;
-    }
+    // @media screen and (min-width: 960px) {
+    //   padding-top: 90px;
+    // }
 
     @media screen and (min-width: 1200px) {
-      padding-top: 139px;
-      padding-bottom: 50px;
+      padding-top: 180px;
     }
   }
   &__subtitle {
@@ -94,11 +93,11 @@
     }
 
     @media screen and (min-width: 480px) {
-      margin-top: 240px;
+      margin-top: 200px;
       font-size: 12px;
     }
     @media screen and (min-width: 768px) {
-      margin-top: 300px;
+      margin-top: 270px;
       font-size: 15px;
     }
 
@@ -108,7 +107,7 @@
     }
 
     @media screen and (min-width: 1200px) {
-      margin-top: 452px;
+      margin-top: 425px;
       font-size: 22px;
     }
   }
