@@ -285,7 +285,6 @@ img {
 
 /* CAROUSEL STARTS */
 .customer-feedback .container {
-  height: 547px;
   padding-bottom: 60px;
 }
 
@@ -751,6 +750,16 @@ img {
   padding-bottom: 130px;
 }
 
+.solutions__page-work {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 959.98px) {
+  .solutions__page-work {
+    margin-top: 50px;
+  }
+}
+
 .carousel {
   margin-left: auto;
   margin-right: auto;
@@ -855,8 +864,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   margin-left: 45px;
 }
 
@@ -912,7 +921,7 @@ img {
   /* width: 805px; */
   display: flex;
   flex-wrap: wrap;
-  margin-top: 80px;
+  margin-top: 100px;
   margin-bottom: 23px;
   margin-left: auto;
   margin-right: auto;
@@ -1016,13 +1025,8 @@ img {
 .materials-page__position {
   position: sticky;
   top: 0;
-  margin-top: -34px;
-  padding-top: 110px;
+  padding-top: 100px;
   padding-bottom: 15px;
-}
-
-.solutions {
-  margin-top: 100px;
 }
 
 .solutions__item {
@@ -1133,7 +1137,13 @@ img {
 
 /* ------------------PAGE 4 (SOLUTIONS-PAGE)----------------- */
 .page-solutions {
-  margin-top: 80px;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 959.98px) {
+  .page-solutions {
+    margin-top: 60px;
+  }
 }
 
 .page-solutions__item {

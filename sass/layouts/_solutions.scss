@@ -1,5 +1,5 @@
 .solutions {
-  margin-top: 100px;
+  // margin-top: 100px;
 }
 
 .solutions__item {
@@ -95,8 +95,10 @@
 
 /* ------------------PAGE 4 (SOLUTIONS-PAGE)----------------- */
 .page-solutions {
-  // padding-top: 80px;
-  margin-top: 80px;
+  margin-top: 100px;
+  @media screen and (max-width: 959.98px) {
+    margin-top: 60px;
+  }
 }
 
 .page-solutions__item {
