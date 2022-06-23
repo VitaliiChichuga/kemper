@@ -1,10 +1,17 @@
-import { gallery, gallery2, gallery3, gallery4 } from './app.js';
+import {
+  galleryFirst,
+  gallerySecond,
+  galleryThird,
+  galleryFourth,
+  galleryFifth,
+} from './app.js';
 
 const refs = {
-  link: document.querySelector('.open'),
-  link2: document.querySelector('.two'),
-  link3: document.querySelector('.three'),
-  link4: document.querySelector('.four'),
+  link: document.getElementById('first'),
+  link2: document.getElementById('second'),
+  link3: document.getElementById('third'),
+  link4: document.getElementById('fourth'),
+  link5: document.getElementById('fifth'),
 };
 
 function getValue(array, key) {
@@ -18,29 +25,36 @@ function getValue(array, key) {
 refs.link.addEventListener('click', event => {
   event.preventDefault();
 
-  if (event.target.className === 'open') {
-    Fancybox.show(gallery, 'src');
+  if (event.target.id === 'first') {
+    Fancybox.show(galleryFifth, 'src');
   }
 });
 
 refs.link2.addEventListener('click', event => {
   event.preventDefault();
 
-  if (event.target.className === 'two') {
-    Fancybox.show(gallery2, 'src');
+  if (event.target.id === 'second') {
+    Fancybox.show(gallerySecond, 'src');
   }
 });
 refs.link3.addEventListener('click', event => {
   event.preventDefault();
 
-  if (event.target.className === 'three') {
-    Fancybox.show(gallery3, 'src');
+  if (event.target.id === 'third') {
+    Fancybox.show(galleryThird, 'src');
   }
 });
 refs.link4.addEventListener('click', event => {
   event.preventDefault();
 
-  if (event.target.className === 'four') {
-    Fancybox.show(gallery4, 'src');
+  if (event.target.id === 'fourth') {
+    Fancybox.show(galleryFourth, 'src');
+  }
+});
+refs.link5.addEventListener('click', event => {
+  event.preventDefault();
+
+  if (event.target.id === 'fifth') {
+    Fancybox.show(galleryFifth, 'src');
   }
 });

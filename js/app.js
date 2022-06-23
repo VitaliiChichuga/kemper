@@ -1,4 +1,4 @@
-export const gallery = [
+export const galleryFirst = [
   {
     src: 'https://cdn.motor1.com/images/mgl/3PMJX/s3/car-for-whole-life.webp',
   },
@@ -7,7 +7,7 @@ export const gallery = [
   },
 ];
 
-export const gallery2 = [
+export const gallerySecond = [
   {
     src: 'https://funart.pro/uploads/posts/2021-04/1618343457_8-funart_pro-p-mashina-mechti-mashini-krasivo-foto-8.jpg',
   },
@@ -15,7 +15,7 @@ export const gallery2 = [
     src: 'https://auto.bigmir.net/i/52/42/01/8/5242018/6b6fef49df7c0c8abbe7caf149956b4b-quality_75Xresize_1Xallow_enlarge_0Xw_800Xh_0.jpg',
   },
 ];
-export const gallery3 = [
+export const galleryThird = [
   {
     src: 'https://funart.pro/uploads/posts/2021-04/1618343457_8-funart_pro-p-mashina-mechti-mashini-krasivo-foto-8.jpg',
   },
@@ -23,7 +23,15 @@ export const gallery3 = [
     src: 'https://auto.bigmir.net/i/52/42/01/8/5242018/6b6fef49df7c0c8abbe7caf149956b4b-quality_75Xresize_1Xallow_enlarge_0Xw_800Xh_0.jpg',
   },
 ];
-export const gallery4 = [
+export const galleryFourth = [
+  {
+    src: 'https://funart.pro/uploads/posts/2021-04/1618343457_8-funart_pro-p-mashina-mechti-mashini-krasivo-foto-8.jpg',
+  },
+  {
+    src: 'https://auto.bigmir.net/i/52/42/01/8/5242018/6b6fef49df7c0c8abbe7caf149956b4b-quality_75Xresize_1Xallow_enlarge_0Xw_800Xh_0.jpg',
+  },
+];
+export const galleryFifth = [
   {
     src: 'https://funart.pro/uploads/posts/2021-04/1618343457_8-funart_pro-p-mashina-mechti-mashini-krasivo-foto-8.jpg',
   },
