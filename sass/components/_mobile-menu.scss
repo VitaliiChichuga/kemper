@@ -6,6 +6,7 @@
   top: -100%;
   left: 50%;
   transform: translate(-50%);
+  transition: var(--animate-link-transition);
   background-image: var(--shadow-color-section);
   opacity: 0.8;
   box-shadow: var(--shadow);
