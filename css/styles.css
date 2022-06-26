@@ -7,10 +7,9 @@
   );
   --shadow-color-section: linear-gradient(
     360deg,
-    #000000 0%,
-    rgba(0, 0, 0, 0.803409) 38.28%,
-    rgba(0, 0, 0, 0.8) 59.2%,
-    #000000 98%
+    rgba(0, 0, 0, 1) 1%,
+    rgba(0, 0, 0, 0.9) 50%,
+    rgba(0, 0, 0, 1) 100%
   );
   --shadow-color-footer: linear-gradient(
     360deg,
@@ -185,7 +184,7 @@ img {
 @media screen and (max-width: 767.98px) {
   .button {
     font-size: 13px;
-    margin-right: 122px;
+    margin-right: 111px;
   }
 }
 
@@ -608,6 +607,7 @@ img {
 
 .hero__title {
   font-size: 12px;
+  text-transform: uppercase;
   max-width: 300px;
   color: var(--secondary-text-color);
   line-height: 1.84;
@@ -965,6 +965,7 @@ img {
   font-weight: 400;
   font-size: 13px;
   line-height: 2.18;
+  text-transform: uppercase;
   width: 200px;
   padding-top: 50px;
   margin-left: 60px;
