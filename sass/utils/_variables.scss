@@ -7,10 +7,12 @@
   );
   --shadow-color-section: linear-gradient(
     360deg,
-    rgba(0, 0, 0, 1) 1%,
-    rgba(0, 0, 0, 0.9) 50%,
-    rgba(0, 0, 0, 1) 100%
+    #000000 0%,
+    rgba(0, 0, 0, 0.8) 40%,
+    rgba(0, 0, 0, 0.8) 60%,
+    #000000 100%
   );
+
   --shadow-color-footer: linear-gradient(
     360deg,
     #000000 0%,
