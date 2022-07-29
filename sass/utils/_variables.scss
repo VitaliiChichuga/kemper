@@ -5,13 +5,20 @@
     rgba(52, 52, 52, 0.612) 51.56%,
     rgba(0, 0, 0, 0.855) 96.19%
   );
+
   --shadow-color-section: linear-gradient(
-    360deg,
-    #000000 0%,
-    rgba(0, 0, 0, 0.8) 40%,
-    rgba(0, 0, 0, 0.8) 60%,
-    #000000 100%
+    115deg,
+    rgba(0, 0, 0, 1.81) 1.21%,
+    rgba(52, 52, 52, 1.612) 103.56%
   );
+
+  // linear-gradient(
+  //     360deg,
+  //     #000000 0%,
+  //     rgba(0, 0, 0, 0.8) 40%,
+  //     rgba(0, 0, 0, 0.8) 60%,
+  //     #000000 100%
+  //   );
 
   --shadow-color-footer: linear-gradient(
     360deg,
